@@ -41,12 +41,12 @@ def main():
 		print ""+B+"~ "+N+"Updating..."
 		time.sleep(3)
 		print
-		print ""+G+" DARKSPLOIT WAS UPGRADED!"
+		print ""+G+" DIMSPLOIT WAS UPGRADED!"
 		time.sleep(1)
 		print
 		print ""+N+"cloning newly updated..."
 		time.sleep(5)
-		os.system("cd ..;rm -rf DarkSploit;git clone https://github.com/LOoLzeC/DarkSploit;cd DarkSploit;python2 DrXp.py")
+		os.system("cd ..;rm -rf DSploit;git clone https://github.com/TSMaitry/DSploit;cd DSploit;python2 DSploit.py")
 		main()
 	elif dr == "show exploits":
 		print ""+N+""
