@@ -28,7 +28,7 @@ def help():
 		print ("\033[3;73;60m show post update                   look post update       \033[0;37;50m\n")
 		print ("\033[3;73;60m use exploit                           <exploit name>      \033[0;37;50m\n")
 		print ("\033[3;73;60m use scanner                           <scanner name>      \033[0;37;50m\n")
-		print ("\033[1;73;50m dimsploit update                        update DimSploit       \033[0;37;50m\n")
+		print ("\033[1;73;50m dimsploit update                     update DimSploit     \033[0;37;50m\n")
 		print
 		main()
 def main():
@@ -53,12 +53,12 @@ def main():
 		print " EXPLOIT"
 		print " ======="
 		print
-		print "   Exploit name                 Rank       Description"
-		print "  --------------               -------     -------------"
-		print "php_thumb_shell_upload          good       vulnerability"
-		print "cpanel_bruteforce              normal      vulnerability"
-		print "joomla_com_hdflayer            manual      vulnerability"
-		print "wp_symposium_shell_upload       good       vulnerability"
+		print ("\033[0;30;46m       Name                   \033[0m\033[0;30;47m     Rank     \033[0m\033[0;37;46m  Description   \033[0m")
+		print ("\033[0;30;46mphp_thumb_shell_upload        \033[0m\033[0;30;47m     Good     \033[0m\033[0;37;46m  Vulnerability \033[0m")
+		print ("\033[0;30;46mcpanel_bruteforce             \033[0m\033[0;30;47m     Normal   \033[0m\033[0;37;46m  Vulnerability \033[0m")
+		print ("\033[0;30;46mjoomla_com_hdflayer           \033[0m\033[0;30;47m     Manual   \033[0m\033[0;37;46m  Vulnerability \033[0m")
+		print ("\033[0;30;46mwp_symposium_shell_upload     \033[0m\033[0;30;47m     Good     \033[0m\033[0;37;46m  Vulnerability \033[0m")
+		print ("\033[0;30;46mjoomla0day_com_myngallery     \033[0m\033[0;30;47m     Good     \033[0m\033[0;37;46m  Vulnerability \033[0m")
 		print "joomla0day_com_myngallery       good       vulnerability"
 		print "jm_auto_change_pswd            normal      vulnerability"
 		print "android/remote_acces           expert      Remote Acces Administrator (RAT)"
