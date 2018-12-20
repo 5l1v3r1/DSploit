@@ -50,8 +50,7 @@ def main():
 		main()
 	elif dr == "show exploits":
 		print ""+N+""
-		print " EXPLOIT"
-		print " ======="
+		print("\033[3;37;40m EXPLOIT \033[0;37;40m \n")
 		print
 		print ("\033[0;30;46m       Name                   \033[0m\033[0;30;47m     Rank     \033[0m\033[0;37;46m  Description   \033[0m")
 		print ("\033[0;30;46mphp_thumb_shell_upload        \033[0m\033[0;30;47m     Good     \033[0m\033[0;37;46m  Vulnerability \033[0m")
@@ -69,10 +68,8 @@ def main():
 		main()
 	elif dr == "show scanners":
 		print ""+N+""
-		print " SCANNERS"
-		print " ========="
+		print("\033[3;37;40m SCANNER \033[0;37;40m \n")
 		print
-		
 		print ("\033[0;30;46m       Name                   \033[0m\033[0;30;47m     Rank     \033[0m\033[0;37;46m  Description   \033[0m")
 		print ("\033[0;30;46mjoomla_vulnerability_scanners \033[0m\033[0;30;47m     High     \033[0m\033[0;37;46m vulnerability  \033[0m")
 		print "joomla_vulnerability_scanners   high       vulnerability"
@@ -90,6 +87,7 @@ def main():
 		main()
 	elif dr == "show post":
 		print
+		print("\033[3;37;40m POST \033[0;37;40m \n")
 		print "    Name                                      Date          Description"
 		print ""+N+"----------------                         ---------------    ---------- "
 		print "                                           DECEMBER 2017"
@@ -127,8 +125,7 @@ def main():
 		main()
 	elif dr == "show virus":
 			print ""+N+""
-			print " VIRUS"
-			print " ====="
+			print("\033[3;37;40m VIRUS \033[0;37;40m \n")
 			print
 			print "       name                              Rank       Description"
 			print "  --------------                        -------     -------------"
